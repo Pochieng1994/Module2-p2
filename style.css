@@ -36,6 +36,20 @@ button:active {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+.row-1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.fa-solid {
+  font-size: 50px;
+}
+
+.section-2 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 
 
 
