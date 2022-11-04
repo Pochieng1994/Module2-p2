@@ -50,6 +50,17 @@ button:active {
   padding-bottom: 70px;
 }
 
+.section-3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.first-col {
+  background-image: url(Images/Writing.jpg);
+  background-size: cover;
+  height: 30vh;
+}
+
 
 
 
