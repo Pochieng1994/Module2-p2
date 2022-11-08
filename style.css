@@ -59,6 +59,68 @@ button:active {
   background-image: url(Images/Writing.jpg);
   background-size: cover;
   height: 30vh;
+  color: white;
+}
+
+.first-col:hover {
+  cursor: pointer;
+  border: solid;
+  border-color: lightgray;
+  border-width: 10px;
+}
+
+.second-col {
+  background-image: url(Images/Synergy.jpg);
+  background-size: cover;
+  height: 30vh;
+  color: white;
+}
+
+.second-col:hover {
+  cursor: pointer;
+  border: solid;
+  border-width: 10px;
+  border-color: lightgray;
+}
+
+.third-col {
+  background-image: url(Images/Rocks.jpg);
+  background-size: cover;
+  height: 30vh;
+  color: white;
+}
+
+.third-col:hover {
+  cursor: pointer;
+  border: solid;
+  border-width: 10px;
+  border-color: lightgray;
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    height: 50vh;
+  }
+
+  .heading-1 {
+    font-size: 50px;
+  }
+
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-4 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
 }
 
 
